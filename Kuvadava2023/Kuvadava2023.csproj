@@ -1,0 +1,593 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E04AC789-0C44-4CDC-BB97-ED3739C8668A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kuvadava2023</RootNamespace>
+    <AssemblyName>Kuvadava2023</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44394</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\animated.css" />
+    <Content Include="assets\css\fontawesome.css" />
+    <Content Include="assets\css\mycss.css" />
+    <Content Include="assets\css\owl.css" />
+    <Content Include="assets\favicon_io\android-chrome-192x192.png" />
+    <Content Include="assets\favicon_io\android-chrome-512x512.png" />
+    <Content Include="assets\favicon_io\apple-touch-icon.png" />
+    <Content Include="assets\favicon_io\favicon-16x16.png" />
+    <Content Include="assets\favicon_io\favicon-32x32.png" />
+    <Content Include="assets\favicon_io\favicon.ico" />
+    <Content Include="assets\fonts\flexslider-icon.svg" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\slick.svg" />
+    <Content Include="assets\images\A1.jpeg" />
+    <Content Include="assets\images\A3.jpeg" />
+    <Content Include="assets\images\A4.jpeg" />
+    <Content Include="assets\images\about-left-image.png" />
+    <Content Include="assets\images\baner-dec-left.png" />
+    <Content Include="assets\images\banner-right-image.png" />
+    <Content Include="assets\images\banner-right-image1.png" />
+    <Content Include="assets\images\Category\02 - RISPA FOOD.jpg" />
+    <Content Include="assets\images\Category\03 5 STAR - MAGAZINE ADVT.jpg" />
+    <Content Include="assets\images\Category\04 9X6 URJA BRICKS 2 %281%29.jpg" />
+    <Content Include="assets\images\Category\04 SHIV TRANSPORT 01.jpg" />
+    <Content Include="assets\images\Category\04 SHIV TRANSPORT.jpg" />
+    <Content Include="assets\images\Category\05 126 x 100 design for ad qqqq %281%29.jpg" />
+    <Content Include="assets\images\Category\06 126 X 204 mm Directory Design ctc v15.jpg" />
+    <Content Include="assets\images\Category\07 126w - 204h MM %281%29.jpg" />
+    <Content Include="assets\images\Category\08 ACTIVE ROLAR FLORMILL - PAGE - Dt. 09-10-23.jpg" />
+    <Content Include="assets\images\Category\09 AD %282%29.jpg" />
+    <Content Include="assets\images\Category\10 Ad %283%29.jpg" />
+    <Content Include="assets\images\Category\100 vasani cold chains pvt.ltd. %281%29.jpg" />
+    <Content Include="assets\images\Category\101 VEER ENTERPRISE %281%29.jpg" />
+    <Content Include="assets\images\Category\102 VELTEX  CON X12.jpg" />
+    <Content Include="assets\images\Category\103 VIDHATA PLAST SORT %281%29.jpg" />
+    <Content Include="assets\images\Category\104 VIMAX -AD - MAGAZINE 26-9-23 %281%29.jpg" />
+    <Content Include="assets\images\Category\105 VIMAX-Technocast_126x204mm_FINAL %281%29.jpg" />
+    <Content Include="assets\images\Category\106 WELDTECH X 12.jpg" />
+    <Content Include="assets\images\Category\107 WINTEK FULL PAGE DESIGN %281%29.jpg" />
+    <Content Include="assets\images\Category\108 YOUR FOOD OUR TASTE %281%29.jpg" />
+    <Content Include="assets\images\Category\11 ADD - 61 X 100 %282%29.jpg" />
+    <Content Include="assets\images\Category\12 Add 126 X 100mm %281%29.jpg" />
+    <Content Include="assets\images\Category\13 add book.jpg" />
+    <Content Include="assets\images\Category\14 Add. 126 x 204 mm Mail Dt.13-10-2023.jpg" />
+    <Content Include="assets\images\Category\15 Adex Directory Ad-25-08-2023 %281%29.jpg" />
+    <Content Include="assets\images\Category\16 Adv. Paresh bhai - Design %281%29.jpg" />
+    <Content Include="assets\images\Category\17 advertisement_2023.jpg" />
+    <Content Include="assets\images\Category\18 AM STEEL %281%29.jpg" />
+    <Content Include="assets\images\Category\19 ashapura plastics %281%29.jpg" />
+    <Content Include="assets\images\Category\20 kevalbhai banner.jpg" />
+    <Content Include="assets\images\Category\21 BALU SCRAPE.jpg" />
+    <Content Include="assets\images\Category\22 bansi. zummi. final cdr.jpg" />
+    <Content Include="assets\images\Category\23 Bryan Book Page.jpg" />
+    <Content Include="assets\images\Category\24 BS Common Ad Design_15x23mm_qqx7.jpg" />
+    <Content Include="assets\images\Category\25 BS GN Oil Ad Design_qqx7.jpg" />
+    <Content Include="assets\images\Category\26 Card Final 01.jpg" />
+    <Content Include="assets\images\Category\26 Card Final 02.jpg" />
+    <Content Include="assets\images\Category\26 Card Final 03.jpg" />
+    <Content Include="assets\images\Category\26 Card Final.jpg" />
+    <Content Include="assets\images\Category\27 cnvt_fibre.jpg" />
+    <Content Include="assets\images\Category\28 dharmendra steel ent. %281%29.jpg" />
+    <Content Include="assets\images\Category\29 DIRECTORY ADD FINAL SUCHDE PAINTS.jpg" />
+    <Content Include="assets\images\Category\30 Directory Page_126mm × 204mm.jpg" />
+    <Content Include="assets\images\Category\31 Distromed_Ad_Size 61 x 100 mm %281%29.jpg" />
+    <Content Include="assets\images\Category\32 everest x12 %281%29.jpg" />
+    <Content Include="assets\images\Category\33 For Shreeji.jpg" />
+    <Content Include="assets\images\Category\34 For Shreeji.jpg" />
+    <Content Include="assets\images\Category\35 Freedom Ionizer Ad Design for Kuvadva 01.11.23.jpg" />
+    <Content Include="assets\images\Category\36 Galaxy Advertisment cq.jpg" />
+    <Content Include="assets\images\Category\37 GALAXY IND..jpg" />
+    <Content Include="assets\images\Category\38 Ganesh.jpg" />
+    <Content Include="assets\images\Category\39G-INFRA SAB PLOT PRAMOT.jpg" />
+    <Content Include="assets\images\Category\40 GK LABORETORY Qua. page design %281%29.jpg" />
+    <Content Include="assets\images\Category\41 HAVMOR PLAST PVT DIRECTORY KUVADAVA.jpg" />
+    <Content Include="assets\images\Category\42 hs polypack 48 x 29 print.jpg" />
+    <Content Include="assets\images\Category\43 IDOL 2023 DATE - 19-08-2023 %284%29.jpg" />
+    <Content Include="assets\images\Category\44 Item 0001 - Sun Industris - 126mm w x 100mm h - Print.jpg" />
+    <Content Include="assets\images\Category\45 J X K 126 x 100 %281%29.jpg" />
+    <Content Include="assets\images\Category\46 JKT-Aug-2023-Advt-Design-Rajkot_cc %281%29.jpg" />
+    <Content Include="assets\images\Category\47 KCC Colour Ad.jpg" />
+    <Content Include="assets\images\Category\48 KEROLIN PLTOWARE.jpg" />
+    <Content Include="assets\images\Category\49 Khodiyar Borewell_Book Page_New File %281%29.jpg" />
+    <Content Include="assets\images\Category\50 KHODIYAR ELCTRIC x16 %281%29.jpg" />
+    <Content Include="assets\images\Category\51 KING MANHOLE COVER HALF PAGE_100X126 %281%29.jpg" />
+    <Content Include="assets\images\Category\52 KISHAN HARDWARE.jpg" />
+    <Content Include="assets\images\Category\53 Krishna Kathiyawadi_F.jpg" />
+    <Content Include="assets\images\Category\54 Krishna Kathiyawadi_F.jpg" />
+    <Content Include="assets\images\Category\55 kvt add.jpg" />
+    <Content Include="assets\images\Category\56 logo sojitra.jpg" />
+    <Content Include="assets\images\Category\57 MarsSortex_ColdStorateFullPage_11 %281%29.jpg" />
+    <Content Include="assets\images\Category\58 MarsSortex_ColdStorateFullPage_11 %281%29.jpg" />
+    <Content Include="assets\images\Category\59 matel enterprise.jpg" />
+    <Content Include="assets\images\Category\60 mk C2C.jpg" />
+    <Content Include="assets\images\Category\61 NEWS PAPER ADD.jpg" />
+    <Content Include="assets\images\Category\62 NEWS PAPER ADD.jpg" />
+    <Content Include="assets\images\Category\63 Newtone Ad.jpg" />
+    <Content Include="assets\images\Category\64 NOOR X 12.jpg" />
+    <Content Include="assets\images\Category\65 nova ad.jpg" />
+    <Content Include="assets\images\Category\66 OM METAL CAST ADD F, CURVE %281%29.jpg" />
+    <Content Include="assets\images\Category\67 omkar.jpg" />
+    <Content Include="assets\images\Category\68 parth electrical.jpg" />
+    <Content Include="assets\images\Category\69 Pride_Packaging_Ad_conv.jpg" />
+    <Content Include="assets\images\Category\70 PRIMESTEEL PRODUCT CATELOGUE.jpg" />
+    <Content Include="assets\images\Category\71 Radhe Add 126x204 %281%29.jpg" />
+    <Content Include="assets\images\Category\72 RAGHUVIR FOOD POST FQ201023.jpg" />
+    <Content Include="assets\images\Category\73 Raj AD DESIGN %281%29.jpg" />
+    <Content Include="assets\images\Category\74 Raj Tin Factory.jpg" />
+    <Content Include="assets\images\Category\75 RAVI RATNA CLAY ART %281%29.jpg" />
+    <Content Include="assets\images\Category\76 RK ROSTO AD.jpg" />
+    <Content Include="assets\images\Category\77 roto.jpg" />
+    <Content Include="assets\images\Category\78 Rotogrid ad.jpg" />
+    <Content Include="assets\images\Category\79 Sangam Borewell_Magazine Advt_126x204mm_28-09-2023 %281%29.jpg" />
+    <Content Include="assets\images\Category\80 sar packging x 12 %281%29.jpg" />
+    <Content Include="assets\images\Category\81 sarthi-rise-india-advertise-126x204 %282%29.jpg" />
+    <Content Include="assets\images\Category\82 sarthi-rise-india-advertise-126x204 %282%29.jpg" />
+    <Content Include="assets\images\Category\83 SATNAME STEEL %281%29.jpg" />
+    <Content Include="assets\images\Category\84 SHAKTI CEMENT FULL PAGE DESIGN %283%29.jpg" />
+    <Content Include="assets\images\Category\85 SHAN PETRO LLP %281%29.jpg" />
+    <Content Include="assets\images\Category\86 shayona design.jpg" />
+    <Content Include="assets\images\Category\87 Shiv Steel ADVT %281%29.jpg" />
+    <Content Include="assets\images\Category\88 Shiv Steel ADVT %281%29.jpg" />
+    <Content Include="assets\images\Category\89 shree ram.jpg" />
+    <Content Include="assets\images\Category\90 SHUBH PACK ADVT HALF PAGE_100X126.jpg" />
+    <Content Include="assets\images\Category\91 Skywin - Ad 2023 q.jpg" />
+    <Content Include="assets\images\Category\92 Social Add 61mm X 100mm.jpg" />
+    <Content Include="assets\images\Category\93 Speedwell Abrasive - Kuvadava Directory Advt %281%29.jpg" />
+    <Content Include="assets\images\Category\94 temp %281%29.jpg" />
+    <Content Include="assets\images\Category\95 Texwin_Magazine Ads.jpg" />
+    <Content Include="assets\images\Category\96 Trimurti.jpg" />
+    <Content Include="assets\images\Category\99 UMA.jpg" />
+    <Content Include="assets\images\Category\99 USA Logo CDR.jpg" />
+    <Content Include="assets\images\Category\99 Utsav Magazine Advertisement %28W- 21 x H- 31 cm%29 CDR_x17.jpg" />
+    <Content Include="assets\images\Category\American Genetics Logo &amp; Address.jpg" />
+    <Content Include="assets\images\contact-dec.png" />
+    <Content Include="assets\images\contact-form-bg.png" />
+    <Content Include="assets\images\contact-left-dec.png" />
+    <Content Include="assets\images\first-plan-bg.png" />
+    <Content Include="assets\images\footer-dec.png" />
+    <Content Include="assets\images\hover-bg.png" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\logo1.png" />
+    <Content Include="assets\images\portfolio-01.jpg" />
+    <Content Include="assets\images\portfolio-02.jpg" />
+    <Content Include="assets\images\portfolio-03.jpg" />
+    <Content Include="assets\images\portfolio-04.jpg" />
+    <Content Include="assets\images\portfolio-left-dec.png" />
+    <Content Include="assets\images\product.png" />
+    <Content Include="assets\images\second-plan-bg.png" />
+    <Content Include="assets\images\service-icon-01.png" />
+    <Content Include="assets\images\service-icon-02.png" />
+    <Content Include="assets\images\service-icon-03.png" />
+    <Content Include="assets\images\service-icon-04.png" />
+    <Content Include="assets\images\services-left-dec.png" />
+    <Content Include="assets\images\services-right-dec.png" />
+    <Content Include="assets\images\subscribe-bg.png" />
+    <Content Include="assets\images\subscribe-dec.png" />
+    <Content Include="assets\images\tables-left-dec.png" />
+    <Content Include="assets\images\tables-right-dec.png" />
+    <Content Include="assets\images\third-plan-bg.png" />
+    <Content Include="assets\images\video-big-thumb-01.png" />
+    <Content Include="assets\images\video-big-thumb-02.png" />
+    <Content Include="assets\images\video-big-thumb-03.png" />
+    <Content Include="assets\images\video-big-thumb-04.png" />
+    <Content Include="assets\images\video-thumb-01.png" />
+    <Content Include="assets\images\video-thumb-02.png" />
+    <Content Include="assets\images\video-thumb-03.png" />
+    <Content Include="assets\images\video-thumb-04.png" />
+    <Content Include="assets\images\videos-left-dec.png" />
+    <Content Include="assets\images\videos-right-dec.png" />
+    <Content Include="assets\js\animation.js" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\imagesloaded.js" />
+    <Content Include="assets\js\isotope.js" />
+    <Content Include="assets\js\owl-carousel.js" />
+    <Content Include="assets\js\tabs.js" />
+    <Content Include="Cotegory\p10_FEBRICISION_FABRICATION.aspx" />
+    <Content Include="Cotegory\p11_FLOOR_MILL_PROCESSOR.aspx" />
+    <Content Include="Cotegory\p12_FOODS_PRODUCTS_FOOD_MASALA.aspx" />
+    <Content Include="Cotegory\p13_FURNITURE.aspx" />
+    <Content Include="Cotegory\p14_GINNING_SPINTEX_SPINNING.aspx" />
+    <Content Include="Cotegory\p15_HARDWARE.aspx" />
+    <Content Include="Cotegory\p16_IMPORT_EXPORT.aspx" />
+    <Content Include="Cotegory\p17_KITCHEN_PRODUCTS.aspx" />
+    <Content Include="Cotegory\p18_MACHINE_TOOLS_SPARE_PARTS.aspx" />
+    <Content Include="Cotegory\p19_PAPER_PRODUCTS_PACKAGING.aspx" />
+    <Content Include="Cotegory\p1_AGRICULTURE_AGRI_EQUIMENT.aspx" />
+    <Content Include="Cotegory\p20_PAINTS.aspx" />
+    <Content Include="Cotegory\p21_PESTICIDE.aspx" />
+    <Content Include="Cotegory\p22_PUMP_PIPES_CABLES.aspx" />
+    <Content Include="Cotegory\p23_PLASTIC_PRODUCTS.aspx" />
+    <Content Include="Cotegory\p24_SCRAP.aspx" />
+    <Content Include="Cotegory\p25_SEEDS.aspx" />
+    <Content Include="Cotegory\p26_SORTEX.aspx" />
+    <Content Include="Cotegory\p27_STEEL_PRODUCTS.aspx" />
+    <Content Include="Cotegory\p28_OTHERS.aspx" />
+    <Content Include="Cotegory\p2_BIO_PRODUCTS.aspx" />
+    <Content Include="Cotegory\p3_BORE_WELL.aspx" />
+    <Content Include="Cotegory\p4_CASTING_FOUNDRY.aspx" />
+    <Content Include="Cotegory\p5_COSMETICS_PHARMACEUTICALS.aspx" />
+    <Content Include="Cotegory\p6_CEMENT_PRODUCT.aspx" />
+    <Content Include="Cotegory\p7_CHEMICALS_PRODUCT_OIL.aspx" />
+    <Content Include="Cotegory\p8_COLD_STORAGE_WAREHOUSE.aspx" />
+    <Content Include="Cotegory\p9_ELECTRIC_PGVCL_SERVICES.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="nav_About.aspx" />
+    <Content Include="nav_Categorys.aspx" />
+    <Content Include="nav_Contact.aspx" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="vendor\jquery\jquery.js" />
+    <Content Include="vendor\jquery\jquery.min.js" />
+    <Content Include="vendor\jquery\jquery.slim.js" />
+    <Content Include="vendor\jquery\jquery.slim.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cotegory\p10_FEBRICISION_FABRICATION.aspx.cs">
+      <DependentUpon>p10_FEBRICISION_FABRICATION.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p10_FEBRICISION_FABRICATION.aspx.designer.cs">
+      <DependentUpon>p10_FEBRICISION_FABRICATION.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p11_FLOOR_MILL_PROCESSOR.aspx.cs">
+      <DependentUpon>p11_FLOOR_MILL_PROCESSOR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p11_FLOOR_MILL_PROCESSOR.aspx.designer.cs">
+      <DependentUpon>p11_FLOOR_MILL_PROCESSOR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p12_FOODS_PRODUCTS_FOOD_MASALA.aspx.cs">
+      <DependentUpon>p12_FOODS_PRODUCTS_FOOD_MASALA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p12_FOODS_PRODUCTS_FOOD_MASALA.aspx.designer.cs">
+      <DependentUpon>p12_FOODS_PRODUCTS_FOOD_MASALA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p13_FURNITURE.aspx.cs">
+      <DependentUpon>p13_FURNITURE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p13_FURNITURE.aspx.designer.cs">
+      <DependentUpon>p13_FURNITURE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p14_GINNING_SPINTEX_SPINNING.aspx.cs">
+      <DependentUpon>p14_GINNING_SPINTEX_SPINNING.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p14_GINNING_SPINTEX_SPINNING.aspx.designer.cs">
+      <DependentUpon>p14_GINNING_SPINTEX_SPINNING.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p15_HARDWARE.aspx.cs">
+      <DependentUpon>p15_HARDWARE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p15_HARDWARE.aspx.designer.cs">
+      <DependentUpon>p15_HARDWARE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p16_IMPORT_EXPORT.aspx.cs">
+      <DependentUpon>p16_IMPORT_EXPORT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p16_IMPORT_EXPORT.aspx.designer.cs">
+      <DependentUpon>p16_IMPORT_EXPORT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p17_KITCHEN_PRODUCTS.aspx.cs">
+      <DependentUpon>p17_KITCHEN_PRODUCTS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p17_KITCHEN_PRODUCTS.aspx.designer.cs">
+      <DependentUpon>p17_KITCHEN_PRODUCTS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p18_MACHINE_TOOLS_SPARE_PARTS.aspx.cs">
+      <DependentUpon>p18_MACHINE_TOOLS_SPARE_PARTS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p18_MACHINE_TOOLS_SPARE_PARTS.aspx.designer.cs">
+      <DependentUpon>p18_MACHINE_TOOLS_SPARE_PARTS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p19_PAPER_PRODUCTS_PACKAGING.aspx.cs">
+      <DependentUpon>p19_PAPER_PRODUCTS_PACKAGING.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p19_PAPER_PRODUCTS_PACKAGING.aspx.designer.cs">
+      <DependentUpon>p19_PAPER_PRODUCTS_PACKAGING.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p1_AGRICULTURE_AGRI_EQUIMENT.aspx.cs">
+      <DependentUpon>p1_AGRICULTURE_AGRI_EQUIMENT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p1_AGRICULTURE_AGRI_EQUIMENT.aspx.designer.cs">
+      <DependentUpon>p1_AGRICULTURE_AGRI_EQUIMENT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p20_PAINTS.aspx.cs">
+      <DependentUpon>p20_PAINTS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p20_PAINTS.aspx.designer.cs">
+      <DependentUpon>p20_PAINTS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p21_PESTICIDE.aspx.cs">
+      <DependentUpon>p21_PESTICIDE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p21_PESTICIDE.aspx.designer.cs">
+      <DependentUpon>p21_PESTICIDE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p22_PUMP_PIPES_CABLES.aspx.cs">
+      <DependentUpon>p22_PUMP_PIPES_CABLES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p22_PUMP_PIPES_CABLES.aspx.designer.cs">
+      <DependentUpon>p22_PUMP_PIPES_CABLES.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p23_PLASTIC_PRODUCTS.aspx.cs">
+      <DependentUpon>p23_PLASTIC_PRODUCTS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p23_PLASTIC_PRODUCTS.aspx.designer.cs">
+      <DependentUpon>p23_PLASTIC_PRODUCTS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p24_SCRAP.aspx.cs">
+      <DependentUpon>p24_SCRAP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p24_SCRAP.aspx.designer.cs">
+      <DependentUpon>p24_SCRAP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p25_SEEDS.aspx.cs">
+      <DependentUpon>p25_SEEDS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p25_SEEDS.aspx.designer.cs">
+      <DependentUpon>p25_SEEDS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p26_SORTEX.aspx.cs">
+      <DependentUpon>p26_SORTEX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p26_SORTEX.aspx.designer.cs">
+      <DependentUpon>p26_SORTEX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p27_STEEL_PRODUCTS.aspx.cs">
+      <DependentUpon>p27_STEEL_PRODUCTS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p27_STEEL_PRODUCTS.aspx.designer.cs">
+      <DependentUpon>p27_STEEL_PRODUCTS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p28_OTHERS.aspx.cs">
+      <DependentUpon>p28_OTHERS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p28_OTHERS.aspx.designer.cs">
+      <DependentUpon>p28_OTHERS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p2_BIO_PRODUCTS.aspx.cs">
+      <DependentUpon>p2_BIO_PRODUCTS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p2_BIO_PRODUCTS.aspx.designer.cs">
+      <DependentUpon>p2_BIO_PRODUCTS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p3_BORE_WELL.aspx.cs">
+      <DependentUpon>p3_BORE_WELL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p3_BORE_WELL.aspx.designer.cs">
+      <DependentUpon>p3_BORE_WELL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p4_CASTING_FOUNDRY.aspx.cs">
+      <DependentUpon>p4_CASTING_FOUNDRY.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p4_CASTING_FOUNDRY.aspx.designer.cs">
+      <DependentUpon>p4_CASTING_FOUNDRY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p5_COSMETICS_PHARMACEUTICALS.aspx.cs">
+      <DependentUpon>p5_COSMETICS_PHARMACEUTICALS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p5_COSMETICS_PHARMACEUTICALS.aspx.designer.cs">
+      <DependentUpon>p5_COSMETICS_PHARMACEUTICALS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p6_CEMENT_PRODUCT.aspx.cs">
+      <DependentUpon>p6_CEMENT_PRODUCT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p6_CEMENT_PRODUCT.aspx.designer.cs">
+      <DependentUpon>p6_CEMENT_PRODUCT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p7_CHEMICALS_PRODUCT_OIL.aspx.cs">
+      <DependentUpon>p7_CHEMICALS_PRODUCT_OIL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p7_CHEMICALS_PRODUCT_OIL.aspx.designer.cs">
+      <DependentUpon>p7_CHEMICALS_PRODUCT_OIL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p8_COLD_STORAGE_WAREHOUSE.aspx.cs">
+      <DependentUpon>p8_COLD_STORAGE_WAREHOUSE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p8_COLD_STORAGE_WAREHOUSE.aspx.designer.cs">
+      <DependentUpon>p8_COLD_STORAGE_WAREHOUSE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\p9_ELECTRIC_PGVCL_SERVICES.aspx.cs">
+      <DependentUpon>p9_ELECTRIC_PGVCL_SERVICES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\p9_ELECTRIC_PGVCL_SERVICES.aspx.designer.cs">
+      <DependentUpon>p9_ELECTRIC_PGVCL_SERVICES.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cotegory\Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cotegory\Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nav_About.aspx.cs">
+      <DependentUpon>nav_About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nav_About.aspx.designer.cs">
+      <DependentUpon>nav_About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nav_Categorys.aspx.cs">
+      <DependentUpon>nav_Categorys.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nav_Categorys.aspx.designer.cs">
+      <DependentUpon>nav_Categorys.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nav_Contact.aspx.cs">
+      <DependentUpon>nav_Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nav_Contact.aspx.designer.cs">
+      <DependentUpon>nav_Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\favicon_io\site.webmanifest" />
+    <Content Include="assets\fonts\Flaticon.woff" />
+    <Content Include="assets\fonts\flexslider-icon.eot" />
+    <Content Include="assets\fonts\flexslider-icon.ttf" />
+    <Content Include="assets\fonts\flexslider-icon.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\slick.eot" />
+    <Content Include="assets\fonts\slick.ttf" />
+    <Content Include="assets\fonts\slick.woff" />
+    <Content Include="Cotegory\Site2.Master" />
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <Content Include="vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="vendor\jquery\jquery.min.map" />
+    <Content Include="vendor\jquery\jquery.slim.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63368</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44394/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
