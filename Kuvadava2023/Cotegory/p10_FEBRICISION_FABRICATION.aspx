@@ -26,7 +26,7 @@
                 "Address": " KUVADVA GIDC , RAJKOT AHMEDABAD HIGHWAY KUVADVA , RAJKOT"
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/67 omkar.jpg",
                 "CompanyName": "OMKAR GALVANIZERS PVT LTD",
                 "Product": "MFG : MS,CS STRUCTURAL & FABRICATED ITEM ",
                 "Contact": 8000950002,

@@ -150,7 +150,7 @@
  "url": "."
 },
 {
- "image": "..\/assets\/images\/logo.png",
+    "image": "..\/assets\/images\/Category\/55 kvt add.jpg",
  "CompanyName": "KVT INDUSTRIES",
  "Product": "MFG : HOMEWARE & BRUSHWARE",
  "Contact": 9825515688,

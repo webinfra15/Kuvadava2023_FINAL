@@ -80,7 +80,7 @@
                 "url": "vijaybhaisvala75@gmail.com"
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/66 OM METAL CAST ADD F, CURVE (1).jpg",
                 "CompanyName": "OM METAL CAST",
                 "Product": "MFG : METAL CAST",
                 "Contact": 927760040,

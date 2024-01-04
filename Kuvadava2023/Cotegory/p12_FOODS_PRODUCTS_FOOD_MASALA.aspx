@@ -69,7 +69,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/logo.png\/Category\/56 logo sojitra.jpg",
                 "CompanyName": "KORMI DHANADAL",
                 "Product": "MFG : FOODS PRODUCTS",
                 "Contact": 9825516848,
@@ -262,7 +262,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/76 RK ROSTO AD.jpg",
                 "CompanyName": "RK ROSTO FOODS",
                 "Product": "MFG : CHANA",
                 "Contact": 9727978040,

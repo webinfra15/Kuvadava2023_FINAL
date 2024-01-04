@@ -95,7 +95,7 @@
         function returnCards(valuesCards) {
             return valuesCards.map(valuesCard => `
       <div class="col-md-4">
-    <div class="card m-1 border" style="height:600px;">
+    <div class="card m-1 border shadow p-3 mb-5 bg-white rounded" style="height:600px;">
             <img class="card-img-top p-2" src="${valuesCard.image}" alt="Card image cap" >
             
             <div class="card-body border-top">

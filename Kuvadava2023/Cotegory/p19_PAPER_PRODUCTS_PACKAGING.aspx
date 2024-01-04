@@ -61,7 +61,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/69 Pride_Packaging_Ad_conv.jpg",
                 "CompanyName": "PRIDE PACKAGING",
                 "Product": "MFG : PACKAGING",
                 "Contact": 9426544299,

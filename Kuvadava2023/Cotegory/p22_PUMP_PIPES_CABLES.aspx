@@ -47,7 +47,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/70 PRIMESTEEL PRODUCT CATELOGUE.jpg",
                 "CompanyName": "PRIMESTEEL MANUFACTURE PVT.LTD.",
                 "Product": "MFG : ERW STEEL PIPES",
                 "Contact": 9638239393,
@@ -87,7 +87,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/logo.png\/Category\/60 mk C2C.jpg",
                 "CompanyName": "MK POLYMERS",
                 "Product": "MFG : PLIMBING PIPES & COLUMN PIPES",
                 "Contact": 9998799087,

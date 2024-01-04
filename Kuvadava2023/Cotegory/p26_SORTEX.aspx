@@ -70,7 +70,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/57 MarsSortex_ColdStorateFullPage_11 (1).jpg",
                 "CompanyName": "MARS SORTEX & WAREHOUSE",
                 "Product": "MFG : SORTEX & WAREHOUSE",
                 "Contact": 9824027168,

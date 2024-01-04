@@ -22,7 +22,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/68 parth electrical.jpg",
                 "CompanyName": "PARTH ELECTRICALS",
                 "Product": "MFG : ELECTRIC",
                 "Contact": 9327990500,

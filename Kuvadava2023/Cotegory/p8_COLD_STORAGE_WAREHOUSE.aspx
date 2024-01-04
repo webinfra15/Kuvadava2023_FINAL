@@ -13,7 +13,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <script>    const valuesCards = [
             {
-                "image": "..\/assets\/images\/logo.png",
+            "image": "..\/assets\/images\/logo.png\/Category\/62 NEWS PAPER ADD.jpg",
                 "CompanyName": "WADHWANI COLD STORAGE ",
                 "Product": "MFG : COLD STORAGE",
                 "Contact": 9879008005,

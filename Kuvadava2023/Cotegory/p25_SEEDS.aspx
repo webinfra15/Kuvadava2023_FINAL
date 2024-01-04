@@ -223,7 +223,7 @@
                 "url": "info@bombaysuper.in"
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/72 RAGHUVIR FOOD POST FQ201023.jpg",
                 "CompanyName": "RAGHUVIR FOOD PRODUCTS ",
                 "Product": "MFG : SPICES&OIL SEEDS",
                 "Contact": 9825082650,

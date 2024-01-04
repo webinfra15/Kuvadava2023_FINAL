@@ -69,7 +69,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/71 Radhe Add 126x204 (1).jpg",
                 "CompanyName": "RADHE STEEL ",
                 "Product": "MFG. STEEL FURNITURE",
                 "Contact": 9979444488,

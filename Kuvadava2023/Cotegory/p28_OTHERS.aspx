@@ -73,7 +73,7 @@
                 "url": "akash.sales@globalcnc.in"
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/77 roto.jpg",
                 "CompanyName": "ROSELIN LEATHERS PVT. LTD.",
                 "Product": ".",
                 "Contact": 9825030292,
@@ -89,7 +89,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/73 Raj AD DESIGN (1).jpg",
                 "CompanyName": "RAJ SWITCHGEAR",
                 "Product": "MFG : SWITCHGEAR",
                 "Contact": 9624205353,
@@ -337,7 +337,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/63 Newtone Ad.jpg",
                 "CompanyName": "NEWTONE PRINT O PACK",
                 "Product": "MFG : PRINTING SOLUTION ",
                 "Contact": 9099094251,
@@ -361,7 +361,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/75 RAVI RATNA CLAY ART (1).jpg",
                 "CompanyName": "RAVI RATNA CLAY ART",
                 "Product": "MFG : CLAY ART",
                 "Contact": 9429950006,

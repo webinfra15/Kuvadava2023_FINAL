@@ -64,7 +64,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/74 Raj Tin Factory.jpg",
                 "CompanyName": "RAJ TIN FACTORY",
                 "Product": "MFG : STEEL TIN",
                 "Contact": 9107911119,
@@ -72,7 +72,7 @@
                 "url": "rt9737199952@gmail.com"
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/65 nova ad.jpg",
                 "CompanyName": "NOVA STEEL INDUSTRIES",
                 "Product": "MFG : STEEL PRODUCTS",
                 "Contact": 9099949559,
