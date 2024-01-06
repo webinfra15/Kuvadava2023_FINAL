@@ -87,7 +87,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png\/Category\/60 mk C2C.jpg",
+                "image": "..\/assets\/images\/Category\/60 mk C2C.jpg",
                 "CompanyName": "MK POLYMERS",
                 "Product": "MFG : PLIMBING PIPES & COLUMN PIPES",
                 "Contact": 9998799087,
@@ -135,7 +135,7 @@
                 "url": "shreejipolypipe@gmail.com"
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/89 shree ram.jpg",
                 "CompanyName": "SHREE RAM TRADERS & PAINTERS",
                 "Product": "MFG : PVC PIPES",
                 "Contact": 9925916412,

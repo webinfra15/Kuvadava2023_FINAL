@@ -96,7 +96,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/105 VIMAX-Technocast_126x204mm_FINAL (1).jpg",
                 "CompanyName": "VIMAX TECHNOCAST PVT.LTD.",
                 "Product": "MFG : ALL TYPE OF CASTING",
                 "Contact": 97262299238,

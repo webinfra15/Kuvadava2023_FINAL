@@ -14,7 +14,7 @@
     <script>
         const valuesCards = [
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/96 Trimurti.jpg",
                 "CompanyName": "TRIMURTI ENTERPRISE",
                 "Product": "MFG : ELECTRIC",
                 "Contact": 9427393207,

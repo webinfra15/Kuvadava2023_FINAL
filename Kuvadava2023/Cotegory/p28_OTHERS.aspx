@@ -257,7 +257,7 @@
                 "url": "aonegardenrides@gmail.com"
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/101 VEER ENTERPRISE (1).jpg",
                 "CompanyName": "VEER ENTERPRISE",
                 "Product": "MFG : BREAK DOWN SERVICE ETC",
                 "Contact": "9924088858\/9998311144",
@@ -305,7 +305,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/107 WINTEK FULL PAGE DESIGN (1).jpg",
                 "CompanyName": "WINTEX NON WOVEN PVT.LTD.",
                 "Product": "MFG : NONWOVEN FABRIC",
                 "Contact": 7202020222,
@@ -393,7 +393,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/88 Shiv Steel ADVT (1).jpg",
                 "CompanyName": "DEV BRIGHT PROCESS",
                 "Product": "MFG : BRIGHT BARS & JOBWORK",
                 "Contact": 9033606789,
@@ -681,7 +681,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/99 Utsav Magazine Advertisement (W- 21 x H- 31 cm) CDR_x17.jpg",
                 "CompanyName": "UTSAV FRAGRANCES",
                 "Product": "MFG : FRAGRANCES",
                 "Contact": 9427505508,

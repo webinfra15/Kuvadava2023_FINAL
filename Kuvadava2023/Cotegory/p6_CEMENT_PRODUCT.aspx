@@ -15,7 +15,7 @@
 
         const valuesCards = [
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/84 SHAKTI CEMENT FULL PAGE DESIGN (3).jpg",
                 "CompanyName": "SHAKTI CEMENT PRODUCT",
                 "Product": "MFG : CEMENT PRODUCT",
                 "Contact": 9825826986,

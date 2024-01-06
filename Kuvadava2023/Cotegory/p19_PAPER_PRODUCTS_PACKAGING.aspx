@@ -37,7 +37,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/86 shayona design.jpg",
                 "CompanyName": "SHAYONA PACKAGING",
                 "Product": "MFG : PACKAGING",
                 "Contact": 9712989389,
@@ -53,7 +53,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/90 SHUBH PACK ADVT HALF PAGE_100X126.jpg",
                 "CompanyName": "SHUBH PACK INDUSTRIES",
                 "Product": "MFG : PACKAGING",
                 "Contact": 9099019123,
@@ -69,7 +69,7 @@
                 "url": "pridepackaging16@gmail.com"
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/102 VELTEX  CON X12.jpg",
                 "CompanyName": "VALEX  POLYPACK  LLP ",
                 "Product": "MFG : PP FABRIC , WOVEN SACKS, BOPP BAG, FLEXIBLE PACKAGING",
                 "Contact": 8200045266,

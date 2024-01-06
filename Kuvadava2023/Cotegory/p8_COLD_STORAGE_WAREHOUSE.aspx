@@ -13,7 +13,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <script>    const valuesCards = [
             {
-            "image": "..\/assets\/images\/logo.png\/Category\/62 NEWS PAPER ADD.jpg",
+            "image": "..\/assets\/images\/Category\/62 NEWS PAPER ADD.jpg",
                 "CompanyName": "WADHWANI COLD STORAGE ",
                 "Product": "MFG : COLD STORAGE",
                 "Contact": 9879008005,
@@ -37,7 +37,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/100 vasani cold chains pvt.ltd. (1).jpg",
                 "CompanyName": "VASANI COLD CHAINS PVT. LTD.",
                 "Product": "MFG: COLD STORAGE",
                 "Contact": "9773461247\/9714888000",

@@ -14,7 +14,7 @@
     <script>
         const valuesCards = [
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/103 VIDHATA PLAST SORT (1).jpg",
                 "CompanyName": "VIDHATA PLAST SORT",
                 "Product": " MFG : PLASTIC COLOUR SORTTEX",
                 "Contact": "9712507774\/9510030508",

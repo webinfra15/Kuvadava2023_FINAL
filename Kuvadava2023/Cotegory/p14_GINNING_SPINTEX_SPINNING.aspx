@@ -46,7 +46,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/91 Skywin - Ad 2023 q.jpg",
                 "CompanyName": "SKYWIN SPINNING PVT. LTD.",
                 "Product": "MFG : SPINNING",
                 "Contact": 9979888450,
@@ -54,7 +54,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/95 Texwin_Magazine Ads.jpg",
                 "CompanyName": "TEXWIN SPINNING PVT.LTD.",
                 "Product": "MFG : SPINNING",
                 "Contact": 9978631722,

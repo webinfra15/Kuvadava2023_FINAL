@@ -23,7 +23,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/82 sarthi-rise-india-advertise-126x204 (2).jpg",
                 "CompanyName": "SARTHI CHEM PVT. LTD.",
                 "Product": "MFG: CHEMICALS",
                 "Contact": 9427171423,
@@ -47,7 +47,7 @@
                 "url": "jevinenterprise@gmail.com"
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/85 SHAN PETRO LLP (1).jpg",
                 "CompanyName": "SHAN PETRO LLP",
                 "Product": "MFG : BASE OILS",
                 "Contact": 9081811550,
@@ -71,7 +71,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/94 temp (1).jpg",
                 "CompanyName": "POSITIVE CHEMICALS PVT. LTD.",
                 "Product": "MFG : CHEMICALS & FEBTILIZERS",
                 "Contact": 8511112882,

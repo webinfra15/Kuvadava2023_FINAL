@@ -69,7 +69,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png\/Category\/56 logo sojitra.jpg",
+                "image": "..\/assets\/images\/Category\/56 logo sojitra.jpg",
                 "CompanyName": "KORMI DHANADAL",
                 "Product": "MFG : FOODS PRODUCTS",
                 "Contact": 9825516848,
@@ -254,7 +254,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/108 YOUR FOOD OUR TASTE (1).jpg",
                 "CompanyName": "OTTI FOOD INDIA",
                 "Product": "MFG : FOOD PRODUCTS",
                 "Contact": 9825996567,

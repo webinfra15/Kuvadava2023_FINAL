@@ -54,7 +54,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/81 sarthi-rise-india-advertise-126x204 (2).jpg",
                 "CompanyName": "SAR PACKTECH INDUSTRIES",
                 "Product": "MFG; PACKAGING MACHINERY",
                 "Contact": 9824406656,
@@ -70,7 +70,7 @@
                 "url": "info@bestsortermachinery.com"
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/106 WELDTECH X 12.jpg",
                 "CompanyName": "WELDTECH INDUSTRIUES PVT LTD",
                 "Product": "MFG : MACHINE TOOLS",
                 "Contact": 9427066688,
@@ -94,7 +94,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/99 UMA.jpg",
                 "CompanyName": "UMA ENTERPRISE",
                 "Product": "MFG : TOOLS & AUTOMOBILES SPARES",
                 "Contact": 9099303732,
@@ -148,7 +148,7 @@
                 "url": "."
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/93 Speedwell Abrasive - Kuvadava Directory Advt (1).jpg",
                 "CompanyName": "SPEEDWELL ABRASIVE PVT.LTD.",
                 "Product": "SPEEDWELL INDUSTRIAL PARK, KUVADVA WAKANER HIGHWAY, KUVADVA (RANPUR).",
                 "Contact": 9723550419,

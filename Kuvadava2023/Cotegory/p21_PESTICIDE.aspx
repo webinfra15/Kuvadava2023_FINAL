@@ -70,7 +70,7 @@
                 "url": "hbhploymers@gmail.com"
             },
             {
-                "image": "..\/assets\/images\/logo.png",
+                "image": "..\/assets\/images\/Category\/104 VIMAX -AD - MAGAZINE 26-9-23 (1).jpg",
                 "CompanyName": "VIMAX CROP SCINCE LTD",
                 "Product": "MFG : PESTICIDE",
                 "Contact": 8114516700,
